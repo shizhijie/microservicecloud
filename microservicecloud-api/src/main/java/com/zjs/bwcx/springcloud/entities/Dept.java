@@ -2,12 +2,14 @@ package com.zjs.bwcx.springcloud.entities;
 
 import java.io.Serializable;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.experimental.Accessors;
 
 @SuppressWarnings("serial")
 @NoArgsConstructor
+@AllArgsConstructor	
 @Data
 @Accessors(chain=true)
 public class Dept implements Serializable {// entity --orm--- db_table
