@@ -14,7 +14,7 @@
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-hystrix</artifactId>
 		</dependency>
-		<!-- 引入自己定义的api通用包，可以使用Dept部门Entity -->
+				<!-- 引入自己定义的api通用包，可以使用Dept部门Entity -->
 		<dependency>
 			<groupId>com.zjs.bwcx.springcloud</groupId>
 			<artifactId>microservicecloud-api</artifactId>
@@ -79,5 +79,6 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-devtools</artifactId>
 		</dependency>
+
 	</dependencies>
 </project>

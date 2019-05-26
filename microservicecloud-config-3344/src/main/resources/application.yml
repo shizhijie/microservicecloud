@@ -1,0 +1,13 @@
+server:
+  port: 3344
+spring:
+  application:
+    name: microservicecloud-config
+  cloud:
+    config:
+      server:
+        git:
+          #username: "xxx"
+          #password: "xxx"
+          #uri: git@github.com:shizhijie/microservicecloud-config.git  com.jcraft.jsch.JSchException: Auth fail 报错
+          uri: https://github.com/shizhijie/microservicecloud-config.git
